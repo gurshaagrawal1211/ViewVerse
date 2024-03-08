@@ -1,0 +1,24 @@
+{
+  "name": "viewverse",
+  "version": "1.0.0",
+  "description": "A backend youtube clone",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurshaagrawal1211/ViewVerse.git"
+  },
+  "author": "Gursha Agrawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gurshaagrawal1211/ViewVerse/issues"
+  },
+  "homepage": "https://github.com/gurshaagrawal1211/ViewVerse#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
+}
