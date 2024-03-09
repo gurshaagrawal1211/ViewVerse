@@ -4,8 +4,9 @@
   "description": "A backend youtube clone",
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "dev": "nodemon src/index.js"
+   "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "dev": "nodemon --env-file=.env src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,10 @@
   "devDependencies": {
     "nodemon": "^3.1.0",
     "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
   }
 }
